@@ -50,7 +50,7 @@ function scrollToID(t,e){var i=180;if(jQuery(t).offset()){var a=jQuery(t).offset
 				o=($(window).height()-400)/2,
 				isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
 			""!==e&&(
-					"facebook"===i ? window.open("https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(e) + "?utm_source=facebook","facebook","width=500,height=400,top="+o+",left="+a):
+					"facebook"===i ? window.open("https://www.facebook.com/sharer/sharer.html?u="+encodeURIComponent(e) + "?utm_source=facebook","facebook","width=500,height=400,top="+o+",left="+a):
 					"twitter"===i  ? window.open("https://twitter.com/share?text="+encodeURIComponent(e) + "?utm_source=twitter","twitter","status=1,width=575,height=300,top="+o+",left="+a):
 					"linkedin"===i?window.open("https://www.linkedin.com/cws/share?url="+encodeURIComponent(e) + "?utm_source=linkedin","linkedin","width=650,height=500,top="+o+",left="+a):
 					"pinterest"===i?window.open("http://pinterest.com/pin/create/button/?url="+encodeURIComponent(e) + "?utm_source=pinterest","pinterest","width=600,height=400,top="+o+",left="+a):

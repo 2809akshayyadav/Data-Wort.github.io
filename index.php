@@ -539,7 +539,7 @@ include '.\include\header.html';
         </div>
       </div>
     </div>
-  </div>
+</div>
 <?php
 include '.\include\clientTestimonials.html';
 include '.\include\partners.html';
